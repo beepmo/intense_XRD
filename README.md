@@ -26,6 +26,7 @@ with parameters formulated by [Waasmaier & Kirfel](https://doi.org/10.1107/S0108
 After obtaining structure factors, powder XRD intensity can be obtained as
 
 $$I_{hkl}=\text{Multiplicity}_{hkl} \cdot \frac{{1+\cos(2\theta)^{2}}}{\sin(\theta)^{2}\cos(\theta)}\cdot |S_{hkl}|^{2}$$
+
 where ${1+\cos(2\theta)^{2}}$ is the polarization factor ([XRD book](https://onlinelibrary.wiley.com/iucr/itc/Cb/ch6o2v0001/sec6o2o2/)), and ${\sin(\theta)^{2}\cos(\theta)}$ is the powder Lorentz factor ([Lorentz-polarization](https://doi.org/10.1346/CCMN.1986.0340402)).
 
 We verify that this model is thus far equivalent to RIETAN-FP by calculating the structure factor and peak intensities of $\ce{ SrTiO_{3} }$, using the crystallographic information file from [Schmidbauer et al](https://10.1107/S0108768111046738). The results of our model and RIETAN-FP are identical.
