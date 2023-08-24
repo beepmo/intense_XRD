@@ -24,8 +24,7 @@ $$f \left(\frac{\sin \theta}{\lambda} \right) = \sum _{i=1}^N a_i \exp \left ( â
 with parameters formulated by [Waasmaier & Kirfel](https://doi.org/10.1107/S0108767394013292). 
 
 After obtaining structure factors, powder XRD intensity can be obtained as
-$I=\text{Multiplicity} \cdot \text{Polarization}\cdot\text{Lorentz}\cdot |S|^{2},$
-
+$$I=\text{Multiplicity} \cdot \text{Polarization}\cdot\text{Lorentz}\cdot |S|^{2},$$
 where ${1+\cos(2\theta)^{2}}$ is the polarization factor ([XRD book](https://onlinelibrary.wiley.com/iucr/itc/Cb/ch6o2v0001/sec6o2o2/)), and ${\sin(\theta)^{2}\cos(\theta)}$ is the powder Lorentz factor ([Lorentz-polarization](https://doi.org/10.1346/CCMN.1986.0340402)).
 
 We verify that this model is thus far equivalent to RIETAN-FP by calculating the structure factor and peak intensities of $\ce{ SrTiO_{3} }$, using the crystallographic information file from [Schmidbauer et al](https://10.1107/S0108768111046738). The results of our model and RIETAN-FP are identical.
