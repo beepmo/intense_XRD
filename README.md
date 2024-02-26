@@ -1,3 +1,16 @@
+This repo was built for the making of Figure 6 in our paper, [Ordered deficient perovskite $\ce{ La_{\frac{2}{3}}TiO_{3} }$ grown via molecular beam epitaxy](https://doi.org/10.1116/6.0003091).
+
+The `XRD_intensity_simulator` is intended to be a readable tutorial, containing several XRD intensity utility functions.
+
+## Resources
+
+- Elements of modern X-ray physics / Jens Als-Nielsen, Des McMorrow. 
+  - Best Lorentz factor explanation
+  - Best XRD book ever : )
+- [Paper's supplementary material](https://doi.org/10.1116/6.0003091) complements `XRD_intensity_simulator`.
+
+
+
 ## Modelling XRD intensity
 
 $\ce{ La_{\frac{2}{3}}TiO_{3} }$ is formulated as $\mathrm{La1_{x}La2_{\frac{4}{3}-x}TiO_{3}}$, with the following structure factor basis:
@@ -31,4 +44,6 @@ We verify that this model is thus far equivalent to RIETAN-FP by calculating the
 
 The modified intensity equation for calculating thin film peak intensity is 
 $$I_{hkl}=\frac{{1+\cos(2\theta)^{2}}}{\sin(\theta)\cos(\theta)}\cdot |S_{hkl}|^{2}$$
-where the multiplicity factor has become uniformly 1 for all $hkl$ and ${\sin(\theta)\cos(\theta)}$ is the single crystal Lorentz factor ([Lorentz-polarization](https://doi.org/10.1346/CCMN.1986.0340402)). 
+where the multiplicity factor has become uniformly 1 for all $hkl$ and ${\sin(\theta)\cos(\theta)}$ is the single crystal Lorentz factor ([Lorentz-polarization](https://doi.org/10.1346/CCMN.1986.0340402)).
+
+Next up, we account for our monochromator and fit the model to data. See `XRD_intensity_simulator`!
